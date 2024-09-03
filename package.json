@@ -1,11 +1,12 @@
 {
   "homepage": "codingnoodless.github.io/fremontschoolofcoding,",
   "name": "fremontschoolofcoding",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build", "deploy": "gh-pages -d build",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d www",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

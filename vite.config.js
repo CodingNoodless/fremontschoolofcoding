@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: './', // Ensure it's a string
   build: {
+    assetsDir: '',
     rollupOptions: {
       external: ['react-type-animation']
     }

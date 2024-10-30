@@ -7,7 +7,6 @@ export default defineConfig({
   base: '/', // Ensure it's a string
   build: {
     rollupOptions: {
-      external: ['react-type-animation']
     }
   }
 })

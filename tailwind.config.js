@@ -1,5 +1,7 @@
-// tailwind.config.js
-module.exports = {
+// Import daisyui at the top of the file
+import daisyui from 'daisyui';
+
+export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {
@@ -9,7 +11,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('daisyui'),
+    daisyui, // Use the imported daisyui plugin directly
   ],
   daisyui: {
     themes: [
@@ -19,11 +21,10 @@ module.exports = {
           "secondary": "#f000b8", 
           "accent": "#37cdbe", 
           "neutral": "#3d4451", 
-          "base-100": "#ffffff", // Set base background color to white
-          // Add other custom theme colors as needed
+          "base-100": "#ffffff",
         },
       },
-      "light", // You can also include other DaisyUI themes if needed
+      "light",
     ],
   },
 }

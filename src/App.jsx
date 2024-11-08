@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Home from './components/HomeInfo';
 // import Aboutus from './components/Aboutus';
@@ -8,6 +9,7 @@ import Contact from './components/Contact';
 import Startclub from './components/Startclub';
 // import Donate from './components/Donate';
 import Footer from './components/Footer';
+import Current from './components/Current';
 // import BubbleBackground from './components/Bubblebackground';
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
             <Route path="/" element={
               <>
                 <Home />
+                <Current/>
                 <Startclub />
                 <Contact />
               </>

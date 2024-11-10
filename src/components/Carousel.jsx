@@ -1,31 +1,23 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Fsc from '../assets/fsc.png';
+import Year4 from '../assets/photo2024.jpg';
+import Year3 from '../assets/photo2023.jpeg';
 
 const Carousal = () => {
   return (
-    <Carousel>
+    <Carousel className='carousel'>
       <Carousel.Item>
-        <img className="d-block w-100" style={{ maxHeight: '400px', objectFit: 'cover' }} src={Fsc} text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <img className='carousel-img' src={Year4} />
+        <Carousel.Caption className='text-carousel'>
+          <h3>Centerville Program 2024</h3>
+          <p>Our fourth year at Centerville, and first official year as a nonprofit!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" style={{ maxHeight: '400px', objectFit: 'cover' }} src={Fsc} text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" style={{ maxHeight: '400px', objectFit: 'cover' }} src={Fsc} text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <img className='carousel-img' src={Year3} />
+        <Carousel.Caption className='text-carousel'>
+          <h3>Centerville Program 2023</h3>
+          <p>Our third year at centerville</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

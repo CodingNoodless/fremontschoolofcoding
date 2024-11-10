@@ -70,6 +70,6 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 43rem;
+    width: 38%;
     flex-wrap: wrap;
 }

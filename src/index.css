@@ -65,3 +65,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+.inner-rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 680px;
+    flex-wrap: wrap;
+}

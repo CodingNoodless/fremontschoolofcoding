@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
+import Logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
           smooth={true}
           duration={500}
         >
-          {/* Logo or Title Here */}
+          {<img src={Logo} style={{width: "3vh"}}/>}
         </ScrollLink>
 
         <div className="flex-none lg:hidden">

@@ -20,13 +20,13 @@ body {
 }
 @media (max-width: 419px) {
     .carousel{
-      width: 334px;
-      height: 125px;
+      width: 330px;
+      height: 206px;
       font-size: small;
     }
     .carousel img{
-        width: 334px;
-        height: 125px;
+        width: 330px;
+        height: 206px;
         object-fit: cover;
     }
 }
@@ -34,11 +34,11 @@ body {
 @media (min-width: 420px) {
     .carousel{
       width: 400px;
-      height: 150px;
+      height: 250px;
     }
     .carousel img{
         width: 400px;
-        height: 150px;
+        height: 250px;
         object-fit: cover;
     }
 }

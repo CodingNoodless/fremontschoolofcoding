@@ -2,12 +2,6 @@ import React from 'react';
 import Circle from '../assets/cirlce.png';
 
 const teamMembers = [
-  { name: 'Taksh Nagpal', role: 'TBD' },
-  { name: 'Taksh Nagpal', role: 'TBD' },
-  { name: 'Taksh Nagpal', role: 'TBD' },
-  { name: 'Taksh Nagpal', role: 'TBD' },
-  { name: 'Taksh Nagpal', role: 'TBD' },
-  { name: 'Taksh Nagpal', role: 'TBD' },
 
 ];
 
@@ -21,7 +15,7 @@ const Ourteam = () => {
       >
         {'</ MEET OUR 2024-2025 TEAM >'}
       </h1>
-      <div className='text-slate-50'>
+      {/* <div className='text-slate-50'>
           <div className="flex flex-col items-center">
             <img
               src={Circle}
@@ -33,7 +27,7 @@ const Ourteam = () => {
               <p className="text-sm">Founder/President</p>
             </div>
           </div>
-      </div>
+      </div> */}
       <div className='inner-rows text-slate-50'>
           {teamMembers.map((member, index) => (
             <div key={index} className="flex flex-col items-center">
